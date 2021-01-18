@@ -43,7 +43,7 @@ nav {
   display: block;
   padding: 2rem;
   margin: 2rem auto;
-  height: 10rem;
+  height: 5rem;
   width: 60%;
   font-size: large;
   font-family: inherit;
@@ -55,7 +55,7 @@ button + div {
 
 #output {
   border: 1px solid black;
-  height: 10rem;
+  height: 5rem;
   width: 60%;
   margin: 2rem auto;
   padding: 2rem;
@@ -72,7 +72,17 @@ footer {
 }
 
 footer p {
-  max-width: 80%;
+  max-width: 60%;
   margin: auto;
   padding: 1rem 0rem;
+}
+
+@media (min-width: 900px) {
+  #input-txt {
+    height: 10rem;
+  }
+
+  #output {
+    height: 10rem;
+  }
 }
