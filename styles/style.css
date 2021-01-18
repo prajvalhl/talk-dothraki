@@ -2,7 +2,7 @@
 
 /* CSS variable */
 :root {
-  --primary-color: #fbbf24;
+  --primary-color: #dc2626;
 }
 
 body {
@@ -32,9 +32,9 @@ nav {
 }
 
 #btn-translate:hover {
-  border-color: #f59e0b;
+  border-color: #fca5a5;
   color: white;
-  box-shadow: 0 0.5em 0.5em -0.4em #f59e0b;
+  box-shadow: 0 0.5em 0.5em -0.4em #b91c1c;
   transform: translateY(-0.25em);
   cursor: pointer;
 }
@@ -76,7 +76,7 @@ footer div {
 }
 
 footer p {
-  max-width: 60%;
+  max-width: 80%;
   margin: auto;
   padding: 1rem 0rem;
 }
@@ -93,5 +93,9 @@ footer p {
   footer {
     padding: 1rem;
     position: absolute;
+  }
+
+  footer p {
+    max-width: 60%;
   }
 }

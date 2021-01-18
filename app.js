@@ -3,7 +3,8 @@ const inputValue = document.querySelector("#input-txt");
 const outputDiv = document.querySelector("#output");
 
 // const serverURL = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
-const serverURL = "https://api.funtranslations.com/translate/minion.json";
+// const serverURL = "https://api.funtranslations.com/translate/minion.json";
+const serverURL = "https://api.funtranslations.com/translate/dothraki.json";
 
 function getTranslationURL(text) {
   return `${serverURL}?text=${text}`;
