@@ -92,7 +92,7 @@ footer p {
 
   footer {
     padding: 1rem;
-    position: absolute;
+    position: fixed;
   }
 
   footer p {
