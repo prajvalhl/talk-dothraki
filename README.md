@@ -5,3 +5,4 @@
 - Enter Your English text which you want to convert to Dothraki language.
 - Click on 'Translate to Dothraki!'.
 - You'll get your translated Dothraki language text back. Enjoy.
+- There's an **limit** on using the API. If you get server error, that might be the problem.
